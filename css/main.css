@@ -14,6 +14,10 @@
 	background-color: #E0F6C8;
 }
 
+.bg-white{
+	background-color: white;
+}
+
 .bg-cuerpo{
 	background-color: #DFDFDF;
 	height: 700px;
@@ -75,8 +79,8 @@
 }
 
 .foto{
-	width: 35px;
-	height: 35px;
+	width: 40px;
+	height: 40px;
 }
 
 .h-60{
@@ -112,4 +116,15 @@ body,html{
 
 .col-sm-4  .bg-gray{
 	border-right: solid 1px #DADADA;
+}
+
+h4,h5,h6{
+	margin: 3px 5px;
+}
+
+input{
+	padding: 6px;
+	border-radius: 4px;
+	border: solid 1px #DADADA;
+	font-size: 0.9rem;
 }
