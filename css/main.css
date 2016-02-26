@@ -1,1 +1,115 @@
-/*Inserta tu css aqui*/
+.bg-white{
+	background-color: #FEFEFE;
+}
+
+.bg-gray{
+	background-color: #EEEEEE;
+}
+
+.bg-green{
+	background-color: #009788;
+	height: 130px;
+}
+.bg-green-light{
+	background-color: #E0F6C8;
+}
+
+.bg-cuerpo{
+	background-color: #DFDFDF;
+	height: 700px;
+}
+
+.gray{
+	color: #F8F8FA;
+}
+
+.black{
+	color: #7B8A98;
+}
+
+.ligth-blue{
+	color: #AEE4F3;
+}
+
+.pink{
+	color: #E0B9C8;
+}
+
+.green{
+	color: #8DBDA3;
+}
+
+.gold{
+	color: #CFB358;
+}
+.r-100{
+	border-radius: 100%;
+}
+
+.oval{
+	border-radius: 4px;
+}
+
+.barra-color{
+	color: #B7B4AF;
+}
+
+.w-100{
+	width: 100%;
+}
+
+.f-left{
+	float: left;
+}
+
+.f-right{
+	float: right;
+}
+
+.pd-2{
+	padding: 2%;
+}
+
+.p-12{
+	padding:12px;
+}
+
+.foto{
+	width: 35px;
+	height: 35px;
+}
+
+.h-60{
+	height: 60px;
+}
+
+i{
+	padding: 9px 9px;
+	font-size: 1.4rem;
+	color: #A6A9AD; 
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,html{
+	font-family: 'Open Sans', Arial;
+	font-size: 16px;
+}
+
+.container {
+  padding:0 16%;
+  margin: auto;
+  position: absolute;
+  top: 2%;
+}
+
+.col-sm-4,.col-sm-8{
+	padding: 0;
+}
+
+.col-sm-4  .bg-gray{
+	border-right: solid 1px #DADADA;
+}
