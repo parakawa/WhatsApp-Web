@@ -22,6 +22,14 @@
 	background-color: #DFDFDF;
 }
 
+.bg-wp{
+	background-color: #EDE9E4;
+	background-image: url('../image/chat-panel-bg.png');
+	background-repeat: repeat;
+	background-position: left;
+	height: 500px
+}
+
 .gray{
 	color: #F8F8FA;
 }
@@ -30,7 +38,7 @@
 	color: #7B8A98;
 }
 
-.ligth-blue{
+.light-blue{
 	color: #AEE4F3;
 }
 
@@ -77,6 +85,9 @@
 .pd-2{
 	padding: 2%;
 }
+.pd-1{
+	padding: 1%;
+}
 
 .p-12{
 	padding:12px;
@@ -112,7 +123,7 @@ body,html{
 }
 
 .container {
-  padding:0 12%;
+  padding:0 10%;
   margin: auto;
   position: absolute;
   top: 2%;
@@ -127,16 +138,82 @@ body,html{
 }
 
 h4,h5,h6{
-	margin: 3px 8px;
+	margin: 3px 3px 3px 8px;
 }
 
 input{
-	padding: 6px;
+	padding: 2% 12%;
 	border-radius: 4px;
 	border: solid 1px #DADADA;
 	font-size: 0.9rem;
+	outline: none;
 }
 
-.vista p{
+.vista span{
 	font-size: 0.7rem;
+}
+
+.search{
+	position: relative;
+	padding: 3%;
+}
+
+.search i{
+	font-size: 0.8rem;
+	color: #A6A9AD; 
+	position: absolute;
+	top: 25%;
+	left: 4%;
+}
+
+.message,.message-me{
+	margin-top: 2px;
+	clear: both;
+}
+
+.message{
+	width: 48%;
+}
+.message p,.message-me p{
+	font-size: 0.8rem;
+	margin: 3px 8px;
+}
+
+.message p:last-child,.message-me p:last-child{
+	margin: -2% -1%;
+}
+
+.message h6{
+	font-weight: 600;
+}
+
+.scroll{
+	overflow-y: scroll;
+	width: 100%;
+}
+
+.h-vista{
+	height: 450px;
+}
+
+.h-panel{
+	height: 449px;
+}
+
+.new-message input{
+	width: 88%;
+	padding: 1% 3%;
+	border: none;
+}
+
+
+::-webkit-scrollbar{
+  width: 6px;
+}
+::-webkit-scrollbar-track-piece{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #CBCBCB;
 }
